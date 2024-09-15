@@ -1,4 +1,4 @@
-# End-to-end-Machine-Learning-Project-with-MLflow
+# End-to-end-Machine-Learning-Project-with-MLflow NEW
 
 
 ## Workflows
@@ -118,7 +118,7 @@ export MLFLOW_TRACKING_PASSWORD=Iwdwis100%
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 975050311903.dkr.ecr.us-east-1.amazonaws.com/winemlproj
+    - Save the URI: 975050311903.dkr.ecr.us-east-1.amazonaws.com/wineproject
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
