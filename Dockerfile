@@ -3,11 +3,14 @@ FROM python:3.12
 
 # Update package lists, install CMake, build tools, and AWS CLI
 RUN apt update -y && apt install -y \
-    build-essential \
-    cmake \
-    awscli \
-    curl \
-    unzip
+build-essential \
+cmake \
+awscli \
+curl \
+unzip \
+libarrow-dev \
+libparquet-dev \
+libarrow-python-dev
 
 # Set the working directory in the container
 WORKDIR /app
