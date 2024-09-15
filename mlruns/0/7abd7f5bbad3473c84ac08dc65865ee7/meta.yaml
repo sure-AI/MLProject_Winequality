@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sr/OneDrive/Documents/Work/Agni/Wine%20Quality%20ML%20Project/MLProject_Winequality/mlruns/0/7abd7f5bbad3473c84ac08dc65865ee7/artifacts
+end_time: 1726415425669
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7abd7f5bbad3473c84ac08dc65865ee7
+run_name: unleashed-sloth-166
+run_uuid: 7abd7f5bbad3473c84ac08dc65865ee7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726415420977
+status: 3
+tags: []
+user_id: sr
