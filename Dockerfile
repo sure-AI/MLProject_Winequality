@@ -12,12 +12,10 @@ RUN apt update -y && apt install -y \
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy only the requirements.txt first to leverage Docker's cache
-COPY requirements.txt /app/
-RUN pip install --upgrade pip && pip install -r requirements.txt
 
 # Copy the rest of the application code to the container
 COPY . /app
+RUN pip install -r requirements.txt
 
 # Command to run the Python application
 CMD ["python3", "app.py"]
