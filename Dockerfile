@@ -2,7 +2,8 @@
 FROM python:3.12
 
 # Update package lists, install CMake, build tools, and AWS CLI
-RUN apt update -y && apt install awscli -y
+RUN apt update -y && apt install awscli -y \
+    cmake \
 
 # Set the working directory in the container
 WORKDIR /app
