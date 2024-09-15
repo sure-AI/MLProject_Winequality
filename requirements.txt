@@ -1,5 +1,5 @@
 pandas 
-mlflow==2.2.2
+mlflow
 notebook
 numpy
 scikit-learn
@@ -7,10 +7,10 @@ matplotlib
 python-box
 pyYAML
 tqdm
-ensure==1.0.2
+ensure
 joblib
 types-PyYAML
 Flask
 Flask-Cors
-Pyarrow==11.0.0
+Pyarrow
 -e .
